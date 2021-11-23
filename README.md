@@ -2,7 +2,7 @@
 
 <img src="https://i.imgur.com/E2hzteQ.png" alt="tabela">
 
-> Esse projeto foi criado como resposta do desafio para a vaga de DevOps da empresa Ploomes. O projeto é basicamente uma tabela do brasileirão que pega dados dos jogos em uma API externa, trata e mostra na tela. A principal intenção desse repositório é mostrar o conhecimento de como fazer um deploy de uma aplicação no Docker.
+> Esse projeto foi criado como resposta ao desafio para a vaga de DevOps da empresa Ploomes. Se trata de uma tabela do brasileirão que pega dados dos jogos em uma API externa, trata e os mostra na tela. A principal intenção desse repositório é mostrar o conhecimento acerca de como fazer um deploy de uma aplicação no Docker.
 
 ## 💻 Recomendações
 
@@ -10,7 +10,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 * Comando `make` instalado
 
-Caso queira saber mais sobre o comando e como instalar-lo basta clicar [AQUI](http://gnuwin32.sourceforge.net/packages/make.htm).
+Caso queira saber mais sobre o comando e como instalá-lo basta clicar [AQUI](http://gnuwin32.sourceforge.net/packages/make.htm).
 
 ## 🚀 Instalando API do Brasilerão com o comando Make
 
@@ -69,12 +69,12 @@ Para usar a API do Brasilerão, siga estas etapas:
 
 ## 🤝 API usadas
 
-Foi usada a versão de testes da [API FUTEBOL](https://www.api-futebol.com.br/documentacao). A tabela não corresponde a realizadade!
+Foi usada a versão de testes da [API FUTEBOL](https://www.api-futebol.com.br/documentacao). A tabela não corresponde a realidade!
 
 
 ## 📝 AVISO
 
-Os arquivos .env só estão aqui, compilados, com o valor real das variavéis pois não foi disponibilizado uma maneira de passar os dados para o avaliador. NUNCA deve-se fazer isso em ambientes de produção/real.
+Os arquivos .env só estão aqui, compilados, com o valor real das variavéis, pois não foi disponibilizada uma maneira de passar os dados para o avaliador. NUNCA se deve fazer isso em ambientes de produção/real.
 
 ## 📝 Licença
 
