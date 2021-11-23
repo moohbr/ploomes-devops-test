@@ -1,2 +1,4 @@
 # production
 /build
+.env
+/node_modules
