@@ -1,7 +1,7 @@
 
 
 .teamRowData {
-    opacity: 100% !important;
+    opacity: 1 !important;
     display: flex;
     align-items: center;
 }
