@@ -2,7 +2,7 @@
 
 <img src="https://i.imgur.com/E2hzteQ.png" alt="tabela">
 
-> Esse projeto foi criado como resposta do desafio para a vaga de DevOps da empresa Ploomes. O projeto é basicamente uma tabela do brasileirão que pega dados dos jogos em uma API externa, trata e mostra na tela. A principal intenção desse repositório é mostrar o deploy de uma aplicação MERN no Docker.
+> Esse projeto foi criado como resposta do desafio para a vaga de DevOps da empresa Ploomes. O projeto é basicamente uma tabela do brasileirão que pega dados dos jogos em uma API externa, trata e mostra na tela. A principal intenção desse repositório é mostrar o conhecimento de como fazer um deploy de uma aplicação, nesse caso MERN, no Docker.
 
 ## 💻 Recomendações
 
