@@ -1,7 +1,7 @@
 version: "3"
 services:
   react-app:
-    image: react-app-dev
+    image: react-app
     environment:
       - REACT_APP_API_ENDPOINT=${REACT_APP_API_ENDPOINT}
     stdin_open: true
