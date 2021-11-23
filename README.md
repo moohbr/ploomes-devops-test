@@ -69,7 +69,12 @@ Para usar a API do Brasilerão, siga estas etapas:
 
 ## 🤝 API usadas
 
-Foi usada a versão de testes da [API FUTEBOL](https://www.api-futebol.com.br/documentacao).
+Foi usada a versão de testes da [API FUTEBOL](https://www.api-futebol.com.br/documentacao). A tabela não corresponde a realizadade!
+
+
+## 📝 AVISO
+
+Os arquivos .env só estão aqui, compilados, com o valor real das variavéis pois não foi disponibilizado uma maneira de passar os dados para o avaliador. NUNCA deve-se fazer isso em ambientes de produção/real.
 
 ## 📝 Licença
 
