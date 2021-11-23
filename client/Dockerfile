@@ -1,4 +1,5 @@
-FROM node:14-slim
+# Stage 1 - Build
+FROM node:14-slim as build
 
 WORKDIR /usr/src/app
 
@@ -8,13 +9,15 @@ COPY ./yarn.lock ./
 RUN yarn install
 RUN yarn add react-modal
 
-
 COPY . .
 
 RUN yarn build
 
-# ENV REACT_APP_BASE_URL=http://localhost:5000/api
+# Stage 2 - Deploy in nginx
+FROM nginx:1.12-alpine
 
-EXPOSE 3000
+COPY --from=build /usr/src/app/build /usr/share/nginx/html
 
-CMD [ "serve", "-s build" ]
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"
