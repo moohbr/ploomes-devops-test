@@ -10,7 +10,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 * Comando `make` instalado
 
-Caso queira saber mais sobre o comando e como instalar-lo, caso esteja no Windows, [AQUI](http://gnuwin32.sourceforge.net/packages/make.htm).
+Caso queira saber mais sobre o comando e como instalar-lo basta clicar [AQUI](http://gnuwin32.sourceforge.net/packages/make.htm).
 
 ## 🚀 Instalando API do Brasilerão com o comando Make
 
