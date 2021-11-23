@@ -67,7 +67,7 @@ Para usar a API do Brasilerão, siga estas etapas:
 
 *Caso tenha usado o .env de exemplo, basta acessar a url configurada (default http://localhost). Aparecerá uma tabela com dados do campeonato.*
 
-## 🤝 API usada
+## 🤝 API usadas
 
 Foi usada a versão de testes da [API FUTEBOL](https://www.api-futebol.com.br/documentacao).
 
