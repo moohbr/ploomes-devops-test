@@ -73,6 +73,6 @@ Foi usada a versão de testes da [API FUTEBOL](https://www.api-futebol.com.br/do
 
 ## 📝 Licença
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](https://github.com/moohbr/ploomes-devops-test/blob/main/LICENSE) para mais detalhes.
+Esse projeto está sob licença (MIT License). Veja o arquivo [LICENÇA](https://github.com/moohbr/ploomes-devops-test/blob/main/LICENSE) para mais detalhes.
 
 [⬆ Voltar ao topo](https://github.com/moohbr/ploomes-devops-test#api-do-brasiler%C3%A3o--teste-ploomes-devops)<br>
