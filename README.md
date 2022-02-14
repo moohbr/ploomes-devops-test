@@ -25,7 +25,7 @@ In the project root directory, do:
 make
 ```
 
-## 🏋️‍♂️ nstalling Brasileirão API without the Make command
+## 🏋️‍♂️ Installing Brasileirão API without the Make command
 
 Clone the project folder:
 
@@ -80,4 +80,4 @@ The .env files are only here, compiled, with the real value of the variables, as
 
 This project is under license (MIT License). see the file [LICENÇA](https://github.com/moohbr/ploomes-devops-test/blob/main/LICENSE) para mais detalhes.
 
-[⬆ Back to the top](https://github.com/moohbr/ploomes-devops-test#api-do-brasiler%C3%A3o--teste-ploomes-devops)<br> API
+[⬆ Back to the top](https://github.com/moohbr/ploomes-devops-test#api-do-brasiler%C3%A3o--teste-ploomes-devops)
