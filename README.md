@@ -1,83 +1,83 @@
-# API do Brasilerão / Teste Ploomes DevOps
+# Brasileirão API / Ploomes DevOps test
 
-<img src="https://i.imgur.com/E2hzteQ.png" alt="tabela">
+<img src="https://i.imgur.com/E2hzteQ.png" alt="table">
 
-> Esse projeto foi criado como resposta ao desafio para a vaga de DevOps da empresa Ploomes. Se trata de uma tabela do brasileirão que pega dados dos jogos em uma API externa, trata e os mostra na tela. A principal intenção desse repositório é mostrar o conhecimento acerca de como fazer um deploy de uma aplicação no Docker.
+> This project was created in response to the challenge for the DevOps vacancy at Ploomes. It is a Brazilian table that takes game data from an external API, treats it and shows it on the screen. The main intention of this repository is to show knowledge about how to deploy an application on Docker.
 
-## 💻 Recomendações
+## 💻 Recommendations
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
+Before you start, make sure you've met the following requirements:
 
-* Comando `make` instalado
+* Command `make` instaled
 
-Caso queira saber mais sobre o comando e como instalá-lo basta clicar [AQUI](http://gnuwin32.sourceforge.net/packages/make.htm).
+If you want to know more about the command and how to install it, just click [HERE](http://gnuwin32.sourceforge.net/packages/make.htm).
 
-## 🚀 Instalando API do Brasilerão com o comando Make
+## 🚀 Installing Brasilerão API with the Make command
 
-Para instalar a API do Brasilerão, siga estas etapas:
+To install the Brasileirão API, follow these steps:
 
-Com o comando Make, siga os seguintes passos:
+With the command Make, follow these steps:
 ```
 git clone https://github.com/moohbr/ploomes-devops-test.git
 ```
-No diretório raiz do projeto, dê o comando:
+In the project root directory, do:
 ```
 make
 ```
 
-## 🏋️‍♂️ Instalando API do Brasilerão sem o comando Make
+## 🏋️‍♂️ nstalling Brasileirão API without the Make command
 
-Clone a pasta do projeto:
+Clone the project folder:
 
 ```
 git clone https://github.com/moohbr/ploomes-devops-test.git
 ```
-Navegue até o diretório da backend:
+Navigate to the frontend directory:
 ```
 cd client
 ```
-Rode o seguinte comando:
+Run the following command:
 ```
 docker build -t react-app .
 ```
-Volte ao diretório raiz com:
+Return to the root directory with:
 ```
 cd ..
 ```
-Agora, navegue até o diretório da backend:
+Now navigate to the backend directory:
 ```
 cd server
 ```
-Rode o seguinte comando:
+Run the following command:
 ```
 docker build -t api-server .
 ```
-Volte ao diretório raiz com:
+Now navigate to the backend directory:
 ```
 cd ..
 ```
-E, por fim, execute:
+And finally, run:
 ```
 docker-compose -f docker-compose.yml up
 ```
 
-## ☕ Usando API do Brasilerão
+## ☕ Using Brasilerão API
 
-Para usar a API do Brasilerão, siga estas etapas:
+To use the Brasileirão API, follow these steps:
 
-*Caso tenha usado o .env de exemplo, basta acessar a url configurada (default http://localhost). Aparecerá uma tabela com dados do campeonato.*
+*If you used the .env example, just access the configured url (default http://localhost). A table with championship data will appear.*
 
-## 🤝 API usadas
+## 🤝 Used API
 
-Foi usada a versão de testes da [API FUTEBOL](https://www.api-futebol.com.br/documentacao). A tabela não corresponde a realidade!
+The trial version of the [API FUTEBOL](https://www.api-futebol.com.br/documentacao). The table don't correspond to reality!
 
 
-## ⚠️ AVISO
+## ⚠️ WARNING
 
-Os arquivos .env só estão aqui, compilados, com o valor real das variavéis, pois não foi disponibilizada uma maneira de passar os dados para o avaliador. NUNCA se deve fazer isso em ambientes de produção/real.
+The .env files are only here, compiled, with the real value of the variables, as there was no way to pass the data to the evaluator. This should NEVER be done in production/real environments.
 
-## 📝 Licença
+## 📝 License
 
-Esse projeto está sob licença (MIT License). Veja o arquivo [LICENÇA](https://github.com/moohbr/ploomes-devops-test/blob/main/LICENSE) para mais detalhes.
+This project is under license (MIT License). see the file [LICENÇA](https://github.com/moohbr/ploomes-devops-test/blob/main/LICENSE) para mais detalhes.
 
-[⬆ Voltar ao topo](https://github.com/moohbr/ploomes-devops-test#api-do-brasiler%C3%A3o--teste-ploomes-devops)<br>
+[⬆ Back to the top](https://github.com/moohbr/ploomes-devops-test#api-do-brasiler%C3%A3o--teste-ploomes-devops)<br> API
